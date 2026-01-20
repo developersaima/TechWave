@@ -114,7 +114,21 @@ header{
   animation: floatGlow 2.5s ease-in-out infinite;
 }
 
-  .banner{
+@keyframes floatGlow {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 0 10px #00FF88;
+  }
+  50% {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px #00FF88;
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 0 10px #00FF88;
+  }
+}
+.banner{
     background-image:url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center center;
