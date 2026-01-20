@@ -364,3 +364,18 @@ footer small{
       color: #ffffffb7;
      font-size: 16px;
 }
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 1023px) {
+  .hamburger-menu {
+    display: block;
+  }
+}
