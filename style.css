@@ -246,3 +246,77 @@ header {
 .c-card-padding-1{
     padding: 111px 40px 107px;
 }
+.feautures {
+  padding: 120px 0;
+  background: #1a0b2e;
+}
+.feautures h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.feautures-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f-card{
+    width: 380px;
+    border-radius: 24px;
+    border-radius: 24px;
+    animation: floatGlow 2.5s ease-in-out infinite;
+}
+.f-card iframe{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    width: 100%;
+    height: 214px;
+    
+}
+.f-card-body{
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background: #250d44;
+    padding: 24px;
+}
+.f-card-body h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.f-card-body p{
+      color: #ffffffb7;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+.f-card-video {
+    position: relative;
+}
+.f-card-video span{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.time-line{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: #00ff88;
+    font-weight: 700;
+}
